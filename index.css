@@ -1,0 +1,123 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+   body {
+     background-color: black;
+
+   }
+     .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+           height: 90vh;
+     }
+
+     .content {
+         padding: 20px ;
+         background-color:white;
+         width:80%;
+           height: 90%;
+            margin: 5px;
+            border: 0.5px solid red;
+             border-radius: 20px;
+             overflow-y: scroll;
+     }
+       .inputbox {
+         padding: 20px 4px;
+    
+       }
+        input {
+            width: 95%;
+            margin: auto;
+             padding: 2rem 7px;
+             border: 2px solid black;
+              font-size: 19px;
+             border-radius:5px ;  
+        }
+           .btns {
+             width: 85% ;
+             margin: auto ;
+             display: flex;
+              
+           }
+              button {
+                 width:42%;
+             padding: 10px 14px;
+             border: 1px solid blueviolet;
+             border-radius: 15px;
+             margin: 0 10px;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+             background-color:rgba(200,33,82,0.5);
+             text-align: center;
+              }
+                button:hover {
+                   background-color: white;
+                   color:blueviolet;
+                }
+
+               .saved {
+                  padding:40px 20px;
+                  display: grid; 
+               }
+                .flex {
+                     display: flex;
+                width:100%;
+                padding: 7px 0;
+                }
+                  li {
+                    width: 90%;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 18px;
+                  }
+                  .close {
+                    font-size: 20px;
+                    color: red;
+                  }
+                   .text {
+                     color:white;
+                     height: 10vh;
+                   }
+                     .text h1 {
+                       font-size: 28px;
+                        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                          text-align: center;
+                          padding:  4vh 10px;
+                     
+                       animation: color 5s linear infinite; 
+                     }
+                     @keyframes color {
+                       0% {
+                         color:white;
+                       }
+                       20% {
+                         color:blueviolet
+                       }
+                       40% {
+                         color:crimson;
+                       }
+                       60% {
+                        color:cyan;
+                      }
+                      80% {
+                        color:lawngreen;
+                      }
+                      100% {
+                        color:darkgoldenrod;
+                      }
+                     }
+                        p {
+                         font-size: 19px;
+                        text-align: center;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                       }
+
+                       @media(max-width:600px) {
+                         input {
+                          padding: 1rem 3px;
+                         }
+                          button {
+                            width:fit-content;
+                          }
+                       }
