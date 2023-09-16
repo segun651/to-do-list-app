@@ -11,7 +11,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
-           height: 80vh;
+           height: 90dvh;
      }
 
      .content {
@@ -37,9 +37,10 @@
              border-radius:5px ;  
         }
            .btns {
-             width: 85% ;
+             width: 90% ;
              margin: auto ;
              display: flex;
+             justify-content: center;
               
            }
               button {
@@ -114,6 +115,9 @@
                        }
 
                        @media(max-width:600px) {
+                         .content {
+                           width: 95%;
+                         }
                          input {
                           padding: 1rem 3px;
                          }
