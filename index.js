@@ -33,7 +33,7 @@ let input = document.getElementById("input")
              list += `  <div class="flex">
                   
              <li> ${item}  </li>
-             <span class="close"><i class="fa fa-trash"  onclick= "cancel(${key})" ></i></span>
+             <div class="close"><i class="fa fa-trash"  onclick= "cancel(${key})" ></i></div>
                </div>`
           })
             ulEl.innerHTML = list
